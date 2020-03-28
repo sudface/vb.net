@@ -20,6 +20,6 @@ The *code.vb* is able to be viewed in the browser, or downloaded.
 # P.S.
 You may get a warning that it is from an unrecognized author. **This warning can be wholly ignored (for this case).**
 <br>
-<br>Do note that nowadays, many browsers won't allow you to download exe's straight from websites, so the easiest option would be to click the green button saying "clone or download", and then download as zip. This will save all the files available at that point of time to be viewed later.
+<br>Do note that nowadays, many browsers won't allow you to download exe's straight from websites, so the easiest option would be to click the green button saying "clone or download", and then download as zip. This will save all the files available at that point of time to be viewed later. Check back soon in case I have updated or added any files!
 
 
