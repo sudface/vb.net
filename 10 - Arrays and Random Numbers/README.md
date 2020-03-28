@@ -36,3 +36,13 @@ This makes it easy to access these words programatically in For loops and such. 
       word = word_array(x)
       ListBox.Items.Add(word)
     Next
+<br><br>
+# Random
+VB.NET also provides a random number function. We can pair this with Arrays, to pick a random word from an array. For example,
+
+    Dim myRandom As New Random
+    Dim i As Integer
+    i = myRandom
+    
+    Label1.Text = word_array(i)
+Note that we have to make another variable (i) and use that in our array. This is because (myRandom)'s type is not an integer. (i = myRandom) stores a random value as an integer in (i). We can then refer to this for use in our array
