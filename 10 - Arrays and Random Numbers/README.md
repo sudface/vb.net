@@ -5,7 +5,6 @@
 [//]: # (Cheers and Happy Coding!)
 
 
-
 # Arrays
 Consider a situation where we need to store five integer numbers. If we use programming's simple variable and data type concepts, then we need five variables of integer data type and the program will be as follows −
 
