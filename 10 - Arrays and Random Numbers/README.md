@@ -17,18 +17,15 @@ It was simple, because we had to store just five integer numbers. Now let's assu
 
 To handle such situations, almost all the programming languages provide a concept called array. An array is a data structure, which can store a fixed-size collection of elements of the same data type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
 <br><br>
-Instead of declaring individual variables, such as number1, number2, ..., number99, you just declare one array variable "number" of integer type and use number(0), number(1), and ..., number(99) to represent individual variables. Here, 0, 1, 2, .....99 are variables, being used to represent individual elements available in the array.
+Instead of declaring individual variables, such as number1, number2, ..., number99, you just declare one array variable "number" of integer type and use number(0), number(1), and ..., number(99) to represent individual variables. Here, 0, 1, 2, .....99 are variables, being used to represent individual elements available in the array. Like so,
+
+    dim mynumbers() As Integer = {135,521,352,235,155,34,1513,473}
+
 <br><br>
 Arrays can also store strings (words), for example,
+    
+    dim word_array() As String = {"bob","the","builder","can","we","fix","it"}
 
-    dim word_array(6) As String ' When using String Arrays, remember to state the number of items in the array when declaring it (`dim`). In this case, 6 items.
-    word_array(0) = "bob"
-    word_array(1) = "the"
-    word_array(2) = "builder"
-    word_array(3) = "can"
-    word_array(4) = "we"
-    word_array(5) = "fix"
-    word_array(6) = "it"
     
 This makes it easy to access these words programatically in For loops and such. For example,
 
