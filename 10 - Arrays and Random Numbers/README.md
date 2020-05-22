@@ -20,7 +20,7 @@ To handle such situations, almost all the programming languages provide a concep
 Instead of declaring individual variables, such as number1, number2, ..., number99, you just declare one array variable "number" of integer type and use number(0), number(1), and ..., number(99) to represent individual variables. Here, 0, 1, 2, .....99 are variables, being used to represent individual elements available in the array. Like so,
 
     dim mynumbers() As Integer = {135,521,352,235,155,34,1513,473}
-<br>
+
 Arrays can also store strings (words), for example,
     
     dim word_array() As String = {"bob","the","builder","can","we","fix","it"}
