@@ -29,12 +29,14 @@ Instead of declaring individual variables, such as number1, number2, ..., number
 Here are variables, represented as individual elements available in an array. Like so,
 
     dim number() As Integer = {135,521,352,235,155,34,1513,473}
-    'calling number(5) would return the 6th value in the array (remember, computers think from zero), which will be "34"
+    
+    'Note: calling number(5) would return the 6th value in the array (remember, computers think from zero), which will be "34"
 
 Arrays can also store strings (words), for example,
     
     dim word_array() As String = {"bob","the","builder","can","we","fix","it"}
-    'calling word_array(3) would return the 4th value in the array (remember, zero), which will be "can"
+    
+    'Note: calling word_array(3) would return the 4th value in the array (remember, zero), which will be "can"
     
 This makes it easy to access these words programatically in For loops and such. For example,
 
