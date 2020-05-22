@@ -20,18 +20,21 @@ Consider a situation where we need to store five integer numbers. If we use prog
     number4 = 40 
     number5 = 50
 
-It was simple, because we had to store just five integer numbers. Now let's assume we have to store 5000 integer numbers. Are we going to use 5000 variables?
+It was simple, because we had to store just five integer numbers. Now let's assume we have to store 5000 integer numbers. Are we going to use 5000 variables and reference them one by one?
 
-To handle such situations, almost all the programming languages provide a concept called array. An array is a data structure, which can store a fixed-size collection of elements of the same data type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.
+To handle such situations, almost all the programming languages provide a concept called "array". An array is a data structure, which can store a fixed-size collection of elements of the same data type. An array is used to store a collection of data, but it is useful to think of an array as a collection of variables of the same type.
 <br><br>
-Instead of declaring individual variables, such as number1, number2, ..., number99, you just declare one array variable "number" of integer type and use number(0), number(1), and ..., number(99) to represent individual variables. Here, 0, 1, 2, .....99 are variables, being used to represent individual elements available in the array. Like so,
+Instead of declaring individual variables, such as number1, number2, ..., number99, you can just declare one array variable "number" of integer type and use number(0), number(1), and ..., number(99) to represent individual variables. We have to use number(0) to refer to the first value, number(1) for the second and so on, because that's how computers think. Remember that!
 
-    dim mynumbers() As Integer = {135,521,352,235,155,34,1513,473}
+Here are variables, represented as individual elements available in an array. Like so,
+
+    dim number() As Integer = {135,521,352,235,155,34,1513,473}
+    'calling number(5) would return the 6th value in the array (remember, computers think from zero), which will be "34"
 
 Arrays can also store strings (words), for example,
     
     dim word_array() As String = {"bob","the","builder","can","we","fix","it"}
-
+    'calling word_array(3) would return the 4th value in the array (remember, zero), which will be "can"
     
 This makes it easy to access these words programatically in For loops and such. For example,
 
