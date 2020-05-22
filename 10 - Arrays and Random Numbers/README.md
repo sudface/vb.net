@@ -1,3 +1,11 @@
+[//]: # (If you are reading this, then it means that you have downloaded this whole course-like thingy)
+[//]: # (This file may not render properly when you open it, heck, if you have managed to open it, kudos!)
+[//]: # (To view the file with all the formatting and stuff, head back online to the link below:)
+[//]: # (https://github.com/sudface/vb.net/blob/master/10%20-%20Arrays%20and%20Random%20Numbers/README.md)
+[//]: # (Cheers and Happy Coding!)
+
+
+
 # Arrays
 Consider a situation where we need to store five integer numbers. If we use programming's simple variable and data type concepts, then we need five variables of integer data type and the program will be as follows −
 
