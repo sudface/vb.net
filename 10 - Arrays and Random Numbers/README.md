@@ -21,7 +21,7 @@ Instead of declaring individual variables, such as number1, number2, ..., number
 <br><br>
 Arrays can also store strings (words), for example,
 
-    dim word_array(6) As String
+    dim word_array(6) As String ' When using String Arrays, remember to state the number of items in the array when declaring it (`dim`). In this case, 6 items.
     word_array(0) = "bob"
     word_array(1) = "the"
     word_array(2) = "builder"
@@ -30,8 +30,6 @@ Arrays can also store strings (words), for example,
     word_array(5) = "fix"
     word_array(6) = "it"
     
-When using String Arrays, remember to state the number of items in the array when declaring it (`dim`).
-<br>
 This makes it easy to access these words programatically in For loops and such. For example,
 
     For x = 0 to 6
@@ -44,7 +42,7 @@ VB.NET also provides a random number function. We can pair this with Arrays, to 
 
     Dim myRandom As New Random
     Dim i As Integer
-    i = myRandom.Next(0,word_array.Length)
+    i = myRandom.Next(0,word_array.Length) ' word_array.length returns the number of values in the array
     
     Label1.Text = word_array(i)
 Note that we have to make another variable (i) and use that in our array. This is because (myRandom)'s type is not an integer. (i = myRandom) stores a random value as an integer in (i). We can then refer to this for use in our array :)
