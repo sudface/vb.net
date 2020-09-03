@@ -50,18 +50,7 @@ Private Sub ButtonDefaultFile_Click(sender As Object, e As EventArgs) Handles Bu
 	'sets DEL as newline so that split can break every newline into a different item in the array
 	'load from wordlist in My Resources
 
-	word_array = My.Resources.wordlist.Split(del, StringSplitOptions.RemoveEmptyEntries)
-	'wordlist is a text file that contains the following:
-	'apple
-	'pear
-	'orange
-	'apricot
-	'peach
-	'plum
-	'banana
-	'mango
-	'strawberry
-	'watermelon
+word_array = {"apple","pear","orange","apricot","peach","plum","banana","mango","strawberry","watermelon"}
 
 	Me.Size = New Size(659, 489)
 	'Enlarge form from (209,489) too see hidden buttons
