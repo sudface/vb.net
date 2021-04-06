@@ -28,6 +28,6 @@ The *code.vb* is able to be viewed in the browser, or downloaded.
 You may get a warning that it is from an unrecognized author. **This warning can be wholly ignored (for this case).**
 You will also find a video on how to run the apps, and remember it is generally not a good idea to download random apps from the internet and run.
 <br>
-<br>Do note that nowadays, many browsers won't allow you to download exe's straight from websites, so the easiest option would be to click the green button saying "clone or download", and then download as zip. This will save all the files available at that point of time to be viewed later. Check back soon in case I have updated or added any files!
+<br>Do note that nowadays, many browsers won't allow you to download exe's straight from websites, so the easiest option would be to click the green button saying "Clone or Download", or "<ins>↓</ins> Code" and then download as zip. This will save all the files available at that point of time to be viewed later. Check back soon in case I have updated or added any files!
 
 
