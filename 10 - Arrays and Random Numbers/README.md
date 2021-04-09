@@ -43,8 +43,8 @@ Why use arrays, you may ask. What's the gain?
 Arrays make it easy to access these words programatically in For loops and such. For example,
 
     For x = 0 to 6
-      word = word_array(x)
-      ListBox.Items.Add(word)
+      current_word = word_array(x)
+      ListBox.Items.Add(current_word)
     Next
     
 You couldn't do that with a billion different variable names could you?
