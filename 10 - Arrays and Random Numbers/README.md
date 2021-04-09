@@ -22,7 +22,7 @@ Consider a situation where we need to store five integer numbers. If we use prog
 
 It was simple, because we had to store just five integer numbers. Now let's assume we have to store 5000 integer numbers. Are we going to use 5000 variables and reference them one by one?
 
-To handle such situations, almost all the programming languages provide a concept called "array". An array is a data structure, which can store a fixed-size collection of elements of the same data type. An array is used to store a collection of data, but it is useful to think of an array as a collection of variables of the same type.
+To handle such situations, almost all the programming languages provide a concept called "array". An array is a data structure, which can store a fixed-size collection of elements of the same data type. An array is used to store a collection of data, but it is useful to think of an array as a collection of variables of the same type, all relating to a similar thing.
 <br><br>
 Instead of declaring individual variables, such as number1, number2, ..., number99, you can just declare one array variable "number" of integer type and use number(0), number(1), and ..., number(99) to represent individual variables. We have to use number(0) to refer to the first value, number(1) for the second and so on, because that's how computers think. Remember that!
 
