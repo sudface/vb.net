@@ -24,6 +24,11 @@ The *code.vb* is able to be viewed in the browser, or downloaded.
 <br>Each folder will also contain an *app.exe* that you can download and run to test and see what the program does.
 <br>Enjoy and Good Luck!
 
+# Helpppppppp
+This is nowhere near a comprehensive introduction to VB.NET, nor is it a good one.
+I've merely tried to introduce a couple key concepts that will help in the real world.
+If you need any help, google is your best resource. That's how majority of the coders learn (myself included)
+
 # P.S.
 You may get a warning that it is from an unrecognized author. **This warning can be wholly ignored (for this case).**
 You will also find a video on how to run the apps, and remember it is generally not a good idea to download random apps from the internet and run.
