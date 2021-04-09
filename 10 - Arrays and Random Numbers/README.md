@@ -54,7 +54,7 @@ VB.NET also provides a random number function. We can pair this with Arrays, to 
 
     Dim myRandom As New Random
     Dim i As Integer
-    i = myRandom.Next(0,word_array.Length) ' word_array.length returns the number of values in the array
+    i = myRandom.Next(0, word_array.Length - 1) ' word_array.length returns the number of values in the array. We want to generate a random number between zero and the number of items in our array. The subtract 1 is there because computers think from zero
     
     Label1.Text = word_array(i)
 Note that we have to make another variable (i) and use that in our array. This is because (myRandom)'s type is not an integer. (i = myRandom) stores a random value as an integer in (i). We can then refer to this for use in our array :)
