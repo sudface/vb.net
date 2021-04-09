@@ -38,7 +38,9 @@ Arrays can also store strings (words), for example,
     
     'Note: calling word_array(3) would return the 4th value in the array (remember, zero), which will be "can"
     
-This makes it easy to access these words programatically in For loops and such. For example,
+Why use arrays, you may ask. What's the gain?
+
+Arrays make it easy to access these words programatically in For loops and such. For example,
 
     For x = 0 to 6
       word = word_array(x)
