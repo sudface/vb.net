@@ -26,8 +26,8 @@ The *code.vb* is able to be viewed in the browser, or downloaded.
 
 # Helpppppppp
 This is nowhere near a comprehensive introduction to VB.NET, nor is it a good one.
-I've merely tried to introduce a couple key concepts that will help in the real world.
-If you need any help, google is your best resource. That's how majority of the coders learn (myself included)
+<br>I've merely tried to introduce a couple key concepts that will help in the real world.
+<br>If you need any help, google is your best resource. That's how majority of the coders learn (myself included)
 
 # P.S.
 You may get a warning that it is from an unrecognized author. **This warning can be wholly ignored (for this case).**
