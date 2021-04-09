@@ -46,6 +46,8 @@ Arrays make it easy to access these words programatically in For loops and such.
       word = word_array(x)
       ListBox.Items.Add(word)
     Next
+    
+You couldn't do that with a billion different variable names could you?
 <br><br>
 # Random
 VB.NET also provides a random number function. We can pair this with Arrays, to pick a random word from an array. For example,
